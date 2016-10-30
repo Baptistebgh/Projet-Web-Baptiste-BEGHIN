@@ -1,0 +1,47 @@
+body{
+	font-family: 'Bangers', cursive;
+	background-image: url('C:/Users/bapti/Desktop/Projet Web/FICHIERS WEB/images/UniRouge.jpg') ;
+	background-repeat: no-repeat;
+	color: white; 
+	background-size: cover;
+}
+
+
+header{
+	font-size: 40px;
+	text-shadow: 5px 5px 2px black ;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;	
+}
+
+li{
+	display: inline;
+}
+
+a{
+	text-decoration : none;
+	color: white;
+}
+
+header a:hover{
+	text-decoration: underline;
+	color:#ff0000;
+	animation-name: example;
+    animation-duration: 0.5s;
+}
+
+.GrandTitre{
+	display: inline-block;
+	color: #e60000;
+	text-shadow: 15px 10px 5px black ;
+}
+
+@keyframes example {
+    0%   {color: #990000;}
+    25%  {color: #b30000;}
+    50%  {color: #cc0000;}
+    75%  {color: #e60000;}
+    100% {color: #ff0000;}
+}
+

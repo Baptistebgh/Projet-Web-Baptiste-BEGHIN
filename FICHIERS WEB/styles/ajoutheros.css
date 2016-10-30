@@ -1,0 +1,46 @@
+.container {
+        width: 500px;
+        clear: both;
+         }
+
+
+ .container input {
+        width: 100%;
+        clear: both;
+    }
+
+input{
+	margin: 5px;
+	padding: 3.5px;
+}
+
+.submit {
+    background-color: #e60000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Bangers', cursive;
+    text-shadow: 2px 2px 1px black ;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+section{
+    left: 420px;
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+}
+
+div{
+    font-size: 15px;
+}
+
+body{
+    position: relative;
+}

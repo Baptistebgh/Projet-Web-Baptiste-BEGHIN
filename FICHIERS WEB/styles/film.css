@@ -1,0 +1,91 @@
+section{
+	border : 5px outset #001a66;
+	border-radius: 10px;
+	margin : 3px;
+	padding: 3px;
+	height: 300px;
+	position: relative;
+	background-color : #002699;
+	font-family: 'Lato', sans-serif;
+}
+
+section div.line1{
+	display: inline-block;
+}
+
+#titre{
+	font-size: 50px;
+	vertical-align: top;
+	position: absolute;
+    bottom: : 0px;
+    left: 210px;
+}
+
+section div.line2{
+	display: inline-block;
+}
+
+#rechercher{
+	height: 30px;
+	width: 350px;
+}
+
+#date{
+	position: absolute;
+    top: : 0px;
+    right: 0px;
+    border : 5px solid #001a66;
+    font-size: 35px;
+    width: 80px;
+    height: 40px;
+}
+
+section a{
+	color: black;
+    background-color: transparent;
+}
+
+div#titre a{
+	color: white;
+}
+
+section a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+#star{
+	font-size: 40px;
+}
+
+#description{
+	position: absolute;
+	top: 90px;
+	bottom: 80px;
+	left: 220px;
+	right: 200px;
+	text-align: left;
+	font-size: 20px;
+
+}
+
+#Franchise{
+	position: absolute;
+	bottom: 3px;
+	right: 3px;
+	font-size: 30px;
+	font-family: 'Bangers', cursive;
+	color: #e60000;
+}
+
+p{
+	font-size: 20px;
+	display: inline-block;
+}
+
+
+#savoirplus{
+	color: black;
+	text-decoration: underline;
+	cursor: pointer; 
+}

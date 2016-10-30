@@ -1,0 +1,38 @@
+figure{
+	display: inline-block;
+	border: 2px solid black;
+	margin: 5px;
+	padding : 0px;
+	float: left;
+	text-align: center;
+	height: 250px;
+	width : 250px;
+}
+
+#AjoutHeros{
+	border: 2px dashed white;
+	font-size: 30px;
+	position: relative;
+}
+
+#plus{
+	position: absolute;
+	font-size: 175px;
+	top: 31px;
+	left: 89px;
+	border-radius: 20px;
+	padding: 0px;
+	font-family: 'Wendy One', sans-serif;
+}
+
+#plus:hover{
+	animation-name: spin;
+    animation-duration: 2s;
+}
+
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+

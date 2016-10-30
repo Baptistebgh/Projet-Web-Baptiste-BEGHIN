@@ -1,0 +1,53 @@
+section{
+	position: relative;
+}
+
+div{
+	display: inline-block;
+}
+
+div.image{
+	position: absolute;
+	left: 0px;
+}
+
+#Nom{
+	position: absolute;
+	top : 0px;
+	font-size: 55px;
+}
+
+#Franchise{
+	position: absolute;
+	top: 30px;
+	right: 200px;
+	font-size: 30px;
+	display: inline-block;
+}
+
+p#identité{
+	font-size: 20px;
+	display: inline-block;
+}
+
+p#groupe{
+	font-size: 30px;
+	display: inline-block;
+	color: #e60000;
+}
+
+#Description{
+	top : 80px;
+	position: absolute;
+	text-indent: 15px;
+}
+
+#next{
+	position: absolute;
+	top: 0px;
+	right: 50px;
+}
+
+div#next img{
+	display: inline-block;
+}
